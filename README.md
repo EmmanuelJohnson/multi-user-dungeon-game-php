@@ -1,4 +1,4 @@
-# multi-user-dungeon-game
+# multi-user-dungeon-game-PHP
 
 Multi User Dungeon Game created using PHP
 
