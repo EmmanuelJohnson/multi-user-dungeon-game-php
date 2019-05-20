@@ -1,0 +1,131 @@
+{
+    "name": "Heaven Earth Hell",
+    "id": "world1",
+    "size": "3X2X2",
+    "start": "101",
+    "maxFloor": 3,
+    "maxRoom": 2,
+    "intro": "You're sick of seeing the poor getting poorer and the disasters that has fallen on this earth. You are approached by an ancient mystic organization known as the 'CREED'. They posses the power to travel between the three realms namely Earth, Heaven and Hell. The followers of this mystic organization fight to balance peace in this world. They ask you to join their quest in bringing peace to the land. Are you up for the task? Type 'start' to begin your adventure brave warrior!",
+    "floors":[
+        {
+            "id": "wf1",
+            "rooms":[
+                [
+                    {
+                        "id": "000",
+                        "type": "transparent",
+                        "monsters":[
+                            {
+                                "type": "dragon",
+                                "level": 1
+                            }
+                        ],
+                        "items":[]
+                    },
+                    {
+                        "id": "001",
+                        "type": "transparent",
+                        "monsters":[],
+                        "items":[
+                            {
+                                "type": "object",
+                                "name": "photo frame",
+                                "level": 0,
+                                "isUsable": false,
+                                "role": null
+                            }
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "id": "010",
+                        "type": "transparent",
+                        "monsters":[],
+                        "items":[
+                            {
+                                "type": "weapon",
+                                "name": "dragon blade",
+                                "level": 1,
+                                "isUsable": true,
+                                "role": "attack"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "011",
+                        "type": "transparent",
+                        "monsters":[],
+                        "items":[]
+                    }
+                ]
+            ]
+        },
+        {
+            "id": "wf2",
+            "rooms":[
+                [
+                    {
+                        "id": "100",
+                        "type": "solid",
+                        "monsters":[],
+                        "items":[]
+                    },
+                    {
+                        "id": "101",
+                        "type": "transparent",
+                        "monsters":[],
+                        "items":[]
+                    }
+                ],
+                [
+                    {
+                        "id": "110",
+                        "type": "transparent",
+                        "monsters":[],
+                        "items":[]
+                    },
+                    {
+                        "id": "111",
+                        "type": "solid",
+                        "monsters":[],
+                        "items":[]
+                    }
+                ]
+            ]
+        },
+        {
+            "id": "wf3",
+            "rooms":[
+                [
+                    {
+                        "id": "200",
+                        "type": "solid",
+                        "monsters":[],
+                        "items":[]
+                    },
+                    {
+                        "id": "201",
+                        "type": "transparent",
+                        "monsters":[],
+                        "items":[]
+                    }
+                ],
+                [
+                    {
+                        "id": "210",
+                        "type": "solid",
+                        "monsters":[],
+                        "items":[]
+                    },
+                    {
+                        "id": "211",
+                        "type": "solid",
+                        "monsters":[],
+                        "items":[]
+                    }
+                ]
+            ]
+        }
+    ]
+}
